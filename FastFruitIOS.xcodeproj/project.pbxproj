@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B670ED229900B2B0024A332 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B670ED129900B2B0024A332 /* Food.swift */; };
+		9B670ED429900C2D0024A332 /* FoodListSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B670ED329900C2D0024A332 /* FoodListSingleton.swift */; };
+		9B670ED62990159C0024A332 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B670ED52990159C0024A332 /* FoodTableViewCell.swift */; };
 		9B963AB4298C04D300054414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B963AB3298C04D300054414 /* AppDelegate.swift */; };
 		9B963AB6298C04D300054414 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B963AB5298C04D300054414 /* SceneDelegate.swift */; };
-		9B963AB8298C04D300054414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B963AB7298C04D300054414 /* ViewController.swift */; };
+		9B963AB8298C04D300054414 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B963AB7298C04D300054414 /* InicioViewController.swift */; };
 		9B963ABB298C04D300054414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B963AB9298C04D300054414 /* Main.storyboard */; };
-		9B963ABE298C04D300054414 /* FastFruitIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B963ABC298C04D300054414 /* FastFruitIOS.xcdatamodeld */; };
 		9B963AC0298C04D500054414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B963ABF298C04D500054414 /* Assets.xcassets */; };
 		9B963AC3298C04D500054414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B963AC1298C04D500054414 /* LaunchScreen.storyboard */; };
+		9B9D2E072990DE1200F6942F /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9D2E062990DE1200F6942F /* CarritoViewController.swift */; };
+		9BB7738E2990CA9400FC7583 /* CartFoodViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7738D2990CA9400FC7583 /* CartFoodViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B670ED129900B2B0024A332 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		9B670ED329900C2D0024A332 /* FoodListSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListSingleton.swift; sourceTree = "<group>"; };
+		9B670ED52990159C0024A332 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		9B963AB0298C04D300054414 /* FastFruitIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastFruitIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B963AB3298C04D300054414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B963AB5298C04D300054414 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B963AB7298C04D300054414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B963AB7298C04D300054414 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		9B963ABA298C04D300054414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B963ABD298C04D300054414 /* FastFruitIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FastFruitIOS.xcdatamodel; sourceTree = "<group>"; };
 		9B963ABF298C04D500054414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B963AC2298C04D500054414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B963AC4298C04D500054414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B963ACD298F56F200054414 /* okemo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = okemo.ttf; sourceTree = "<group>"; };
+		9B963ACE298F56FB00054414 /* emmasophia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = emmasophia.ttf; sourceTree = "<group>"; };
+		9B963ACF298F570200054414 /* semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = semibold.ttf; sourceTree = "<group>"; };
+		9B9D2E062990DE1200F6942F /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+		9BB7738D2990CA9400FC7583 /* CartFoodViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoodViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +69,31 @@
 		9B963AB2298C04D300054414 /* FastFruitIOS */ = {
 			isa = PBXGroup;
 			children = (
+				9B963ACC298F56DB00054414 /* Fonts */,
 				9B963AB3298C04D300054414 /* AppDelegate.swift */,
 				9B963AB5298C04D300054414 /* SceneDelegate.swift */,
-				9B963AB7298C04D300054414 /* ViewController.swift */,
+				9B963AB7298C04D300054414 /* InicioViewController.swift */,
 				9B963AB9298C04D300054414 /* Main.storyboard */,
 				9B963ABF298C04D500054414 /* Assets.xcassets */,
 				9B963AC1298C04D500054414 /* LaunchScreen.storyboard */,
 				9B963AC4298C04D500054414 /* Info.plist */,
-				9B963ABC298C04D300054414 /* FastFruitIOS.xcdatamodeld */,
+				9B670ED129900B2B0024A332 /* Food.swift */,
+				9B670ED329900C2D0024A332 /* FoodListSingleton.swift */,
+				9B670ED52990159C0024A332 /* FoodTableViewCell.swift */,
+				9BB7738D2990CA9400FC7583 /* CartFoodViewCell.swift */,
+				9B9D2E062990DE1200F6942F /* CarritoViewController.swift */,
 			);
 			path = FastFruitIOS;
+			sourceTree = "<group>";
+		};
+		9B963ACC298F56DB00054414 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B963ACF298F570200054414 /* semibold.ttf */,
+				9B963ACE298F56FB00054414 /* emmasophia.ttf */,
+				9B963ACD298F56F200054414 /* okemo.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B963ABE298C04D300054414 /* FastFruitIOS.xcdatamodeld in Sources */,
-				9B963AB8298C04D300054414 /* ViewController.swift in Sources */,
+				9B963AB8298C04D300054414 /* InicioViewController.swift in Sources */,
+				9B9D2E072990DE1200F6942F /* CarritoViewController.swift in Sources */,
+				9BB7738E2990CA9400FC7583 /* CartFoodViewCell.swift in Sources */,
+				9B670ED229900B2B0024A332 /* Food.swift in Sources */,
 				9B963AB4298C04D300054414 /* AppDelegate.swift in Sources */,
+				9B670ED429900C2D0024A332 /* FoodListSingleton.swift in Sources */,
 				9B963AB6298C04D300054414 /* SceneDelegate.swift in Sources */,
+				9B670ED62990159C0024A332 /* FoodTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,19 +392,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9B963ABC298C04D300054414 /* FastFruitIOS.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9B963ABD298C04D300054414 /* FastFruitIOS.xcdatamodel */,
-			);
-			currentVersion = 9B963ABD298C04D300054414 /* FastFruitIOS.xcdatamodel */;
-			path = FastFruitIOS.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9B963AA8298C04D300054414 /* Project object */;
 }
