@@ -7,7 +7,8 @@
 
 import UIKit
 
-class CartFoodViewCell: UITableViewCell {
+
+class CartFoodViewCell: UITableViewCell{
 
     @IBOutlet var quantitylabel: UILabel!
     @IBOutlet var preciolabel: UILabel!
@@ -34,6 +35,7 @@ class CartFoodViewCell: UITableViewCell {
             preciolabel.text = food.price
             namelabel.text = food.restaurantName
         quantitylabel.text = "\(food.quantity)"
+
 
         }
 

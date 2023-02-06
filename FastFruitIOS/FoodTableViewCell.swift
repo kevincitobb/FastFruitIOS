@@ -41,11 +41,13 @@ class FoodTableViewCell: UITableViewCell {
         food.quantity += 1
         food.total = Double(food.quantity) * Double(food.price)!
         setFood(food: food)
+
     }
     @IBAction func lessBtnPressed(_ sender: Any) {
         food.quantity = max(food.quantity - 1, 0)
         food.total = Double(food.quantity) * Double(food.price)!
         setFood(food: food)
+
     }
 
     @IBAction func likeBtnPressed(_ sender: Any) {

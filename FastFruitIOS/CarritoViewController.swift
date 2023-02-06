@@ -21,7 +21,12 @@ class CarritoViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         carritoTV.delegate = self
         carritoTV.dataSource = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         updateTotal()
+        carritoTV.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -35,7 +40,6 @@ class CarritoViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
     
-
     @IBAction func comprarbtnPressed(_ sender: Any) {
         var totalAmount = 0.0
            for food in FoodListSingleton.shared.foodList {

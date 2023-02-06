@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5512B82991720B00ED8E78 /* UsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5512B72991720B00ED8E78 /* UsuarioViewController.swift */; };
 		9B670ED229900B2B0024A332 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B670ED129900B2B0024A332 /* Food.swift */; };
 		9B670ED429900C2D0024A332 /* FoodListSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B670ED329900C2D0024A332 /* FoodListSingleton.swift */; };
 		9B670ED62990159C0024A332 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B670ED52990159C0024A332 /* FoodTableViewCell.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B5512B72991720B00ED8E78 /* UsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewController.swift; sourceTree = "<group>"; };
 		9B670ED129900B2B0024A332 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		9B670ED329900C2D0024A332 /* FoodListSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListSingleton.swift; sourceTree = "<group>"; };
 		9B670ED52990159C0024A332 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				9B670ED52990159C0024A332 /* FoodTableViewCell.swift */,
 				9BB7738D2990CA9400FC7583 /* CartFoodViewCell.swift */,
 				9B9D2E062990DE1200F6942F /* CarritoViewController.swift */,
+				9B5512B72991720B00ED8E78 /* UsuarioViewController.swift */,
 			);
 			path = FastFruitIOS;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				9B963AB8298C04D300054414 /* InicioViewController.swift in Sources */,
 				9B9D2E072990DE1200F6942F /* CarritoViewController.swift in Sources */,
+				9B5512B82991720B00ED8E78 /* UsuarioViewController.swift in Sources */,
 				9BB7738E2990CA9400FC7583 /* CartFoodViewCell.swift in Sources */,
 				9B670ED229900B2B0024A332 /* Food.swift in Sources */,
 				9B963AB4298C04D300054414 /* AppDelegate.swift in Sources */,
