@@ -6,6 +6,11 @@
 //
 
 import UIKit
+import FirebaseAnalytics
+
+enum ProviderType: String {
+    case basic
+}
 
 class InicioViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate {
 
@@ -21,6 +26,7 @@ class InicioViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        Analytics.logEvent("InitScreen", parameters: ["messsage":"integracion completa"])
         foodTV.dataSource = self
         catPV.dataSource = self
         catPV.delegate = self
